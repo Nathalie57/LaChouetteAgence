@@ -716,6 +716,10 @@ h3 {
     color: #333333!important;
 }
 
+blockquote p {
+    font-size: 1.5rem;
+}
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
