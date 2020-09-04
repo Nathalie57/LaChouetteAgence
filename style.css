@@ -557,14 +557,6 @@ button {
     opacity: 1;
 }
 
-#bloc-3-what-i-do h1 {
-    font-size: 1.8rem;
-}
-
-#bloc-3-what-i-do p {
-    font-size: 1.5rem;
-}
-
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -776,8 +768,7 @@ h4 {
 }
 
 .white {
-    color: #ffffff!important;
-    font-size: 1.5rem;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -816,7 +807,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
     font-size: 2rem;
     font-weight: bold;
 }
