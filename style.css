@@ -7,6 +7,19 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+label {
+    font-weight: bold;
+}
+
+.col-sm-6 {
+    text-align: center;
+}
+
+.container.bloc-lg {
+    display: flex;
+    justify-content: center;
+}
+
 form#form_1 {
     text-align: left;
     margin-right: 2.6rem;
@@ -516,6 +529,7 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
     width: 100%;
+    margin-bottom: 1.5rem;
 }
 
 .scrollToTop {
@@ -789,11 +803,13 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: 1.3rem;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f3976c;
     color: #000000!important;
+    width: 100%;
 }
 
 .btn-atomic-tangerine:hover {
@@ -832,6 +848,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    text-align: center;
 }
 
 .bg-presentation {
