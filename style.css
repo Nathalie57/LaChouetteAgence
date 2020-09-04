@@ -7,10 +7,17 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+form#form_1 {
+    text-align: left;
+    margin-right: 2.6rem;
+    margin-left: 2rem;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -284,7 +291,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .navbar {
@@ -508,6 +515,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 100%;
 }
 
 .scrollToTop {
@@ -682,7 +690,8 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: 2px;
+    font-size: 15px;
 }
 
 .h1 {
@@ -841,6 +850,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .navbar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 3rem;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -855,6 +871,12 @@ h4 {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .navbar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 5rem;
     }
 }
 
@@ -980,6 +1002,7 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+        text-align: center;
     }
     .bloc-xxl,
     .bloc-xl,
