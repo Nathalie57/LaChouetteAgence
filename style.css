@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.btn-width {
+    width: 100%;
+}
+
 label {
     font-weight: bold;
 }
@@ -15,7 +19,7 @@ label {
     text-align: center;
 }
 
-.container.bloc-lg {
+.container.bloc-lg-center {
     display: flex;
     justify-content: center;
 }
@@ -811,7 +815,6 @@ h4 {
 .btn-atomic-tangerine {
     background: #f3976c;
     color: #000000!important;
-    width: 100%;
 }
 
 .btn-atomic-tangerine:hover {
