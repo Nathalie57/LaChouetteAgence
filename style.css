@@ -956,6 +956,10 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere_1200.jpg");
+    }
+
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
@@ -1081,6 +1085,9 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .bg-banniere {
+        background-image: url("img/la-chouette-agence-banniere_1200.jpg");
     }
 }
 
