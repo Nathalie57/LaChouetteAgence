@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.social {
+    color: black;
+}
+
 .btn-width {
     width: 100%;
 }
