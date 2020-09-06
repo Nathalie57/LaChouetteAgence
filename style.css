@@ -19,16 +19,6 @@ label {
     font-weight: bold;
 }
 
-.col-sm-6 {
-    text-align: center;
-    width: 50%;
-}
-
-.col-sm-6-contact {
-    width: 100%;
-    text-align: center;
-}
-
 .container.bloc-lg-center {
     display: flex;
     justify-content: center;
@@ -967,9 +957,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .bg-banniere {
-        background-image: url("img/la-chouette-agence-banniere_1200.jpg");
-    }
+    
 
     .navbar .nav {
         padding-top: 0;
@@ -1090,10 +1078,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    .col-sm-6 {
-        text-align: center;
-        width: 100%;
-    }
+    
 }
 
 @media (max-width: 400px) {
@@ -1101,9 +1086,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .bg-banniere {
-        background-image: url("img/la-chouette-agence-banniere_1200.jpg");
-    }
+    
 }
 
 @media (max-width: 767px) {
