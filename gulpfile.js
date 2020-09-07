@@ -29,9 +29,9 @@ function watch(){
       baseDir : "./"
     }
   });
-  gulp.watch("./src/css/**/*.css", minifyCss);
-  gulp.watch("./src/js/**/*.js", minifyJs);
-  gulp.watch("./www/").on("change", browserSync.reload);
+  gulp.watch("./*.css", minifyCss);
+  gulp.watch("./js/*.js", minifyJs);
+  gulp.watch("./").on("change", browserSync.reload);
 }
 
 // exports.style = style;
